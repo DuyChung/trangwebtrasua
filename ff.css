@@ -1,0 +1,16 @@
+/*==Lên khung cho website==*/
+
+#container1 {
+    padding-left: 50px;
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+
+#menu1 {
+    position: fixed;
+    height: 100%;
+    background-color: #FFFFFF;
+    width: 10px;
+    left: 0;
+}
