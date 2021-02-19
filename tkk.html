@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <style type="text/css">
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .clearfix:after {
+            display: block;
+            clear: both;
+        }
+        /*----- Phần menu -----*/
+        
+        .menu {
+            width: 1370px;
+            margin: 50px auto;
+            background: #ffc1c1;
+            height: 50px;
+            margin-top: 0px;
+        }
+        
+        .menu li {
+            margin: 0px;
+            list-style: none;
+            font-family: 'Ek Mukta';
+        }
+        
+        .menu a {
+            transition: all linear 0.15s;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .menu li:hover>a,
+        .menu .current-item>a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .menu .arrow {
+            font-size: 11px;
+            line-height: 0%;
+        }
+        /*----- css cho phần menu cha -----*/
+        
+        .menu>ul>li {
+            float: left;
+            display: inline-block;
+            position: relative;
+            font-size: 23px;
+        }
+        
+        .menu>ul>li>a {
+            padding: 10px 60px;
+            display: inline-block;
+            `````````` color: white;
+        }
+        
+        .menu>ul>li:hover>a,
+        .menu>ul>.current-item>a {
+            background: #eeb4b4;
+        }
+        /*----css cho menu con----*/
+        
+        .menu li:hover .sub-menu {
+            z-index: 1;
+            opacity: 1;
+        }
+        
+        .sub-menu {
+            width: 150%;
+            padding: 5px 0px;
+            position: relative;
+            top: 100%;
+            left: 0px;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity linear 0s;
+            box-shadow: 0px 2px 3px #ff82ab(0, 0, 0, 0.2);
+            background: #ffc5c5;
+        }
+        
+        .sub-menu li {
+            display: block;
+            font-size: 23px;
+        }
+        
+        .sub-menu li a {
+            padding: 10px 30px;
+            display: block;
+        }
+        
+        .sub-menu li a:hover,
+        .sub-menu .current-item a {
+            background: #ff82ab;
+            ``
+        }
+    </style>
+</head>
+<div class="wrapper">
+    <nav class="menu">
+        <ul class="clearfix">
+            <li><a href="tkk.html">Trang chủ</a></li>
+
+            <li><a href="gioithieu.html">Giới thiệu</a></li>
+            <li>
+                <a href="uudai.html">Ưu Đãi</a>
+            </li>
+            <li><a href="cuahang.html">Cửa hàng</a></li>
+            <li><a href="lienhe.html">Liên hệ</a></li>
+            <li>
+                <a href="#"> Menu <span class="arrow">&#9660;</span></a>
+
+                <ul class="sub-menu">
+                    <li><a href="MonMoii.html">Menu hiện tại</a></li>
+                    <li><a href="menudacbiet.html">Thức uống đặc biệt</a></li>
+                    <li><a href="menusangtao.html">Thức uống sáng tạo</a></li>
+                    <li><a href="menutranguyenvi.html">Trà nguyên vị </a></li>
+                    <li><a href="menutrasua.html">Trà sữa </a></li>
+                    <div id="lk.css"></div>
+    </nav>
+</div>
+<div class="footer"><img src="hinh/anhbiatrangchu.jpg" alt=" " style=" height: 660px ; width:1370px " ; /></div>
+<div id="footer">
+    <p>Copyright © 2020 ChungPhucTrang.</p>
+</div>
+
+</html>
